@@ -9,13 +9,13 @@ int main()
     printf("Введіть ваше ціле число: ");
     scanf("%d", &number);
 
-    if (number % 2 == 0)
+    if (number % 2)
     {
-        printf("Парне\n");
+        printf("Непарне\n");
     }
     else
     {
-        printf("Непарне\n");
+        printf("Парне\n");
     }
     return 0;
 }
