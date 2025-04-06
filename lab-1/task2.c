@@ -2,7 +2,8 @@
 
 int main()
 {
-    int variable = 10;
-    printf("%d", variable);
+    const float PI = 3.14f;
+
+    printf("%.2f", PI);
     return 0;
 }

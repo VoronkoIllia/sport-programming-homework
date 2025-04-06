@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Hello");
+    printf("%f", 5 / 2);
     return 0;
 }

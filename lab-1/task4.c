@@ -1,8 +1,18 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
-    int result = 5 + 7;
-    printf("%d", result);
+
+    setlocale(LC_ALL, "ua-UA");
+
+    int integer;
+    float rationalNumber;
+
+    printf("Введіть ціле та дробове число через пробіл: ");
+    scanf("%d %f", &integer, &rationalNumber);
+
+    printf("Сума чисел: %f", integer + rationalNumber);
+
     return 0;
 }
